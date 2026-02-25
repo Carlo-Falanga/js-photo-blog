@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+h1 {
+    font-family: "Edu Tas Beginner", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Edu Tas Beginner", sans-serif;
+}
+
+.header_bkg{
+    background-image: url(/assets/img/wall.png);
+    min-height: 100px;
+}
+
+.main_bkg {
+    background-image: url(/assets/img/cork.png);
+}
+
+.pin{
+    position: absolute;
+    top: 30%;
+}
