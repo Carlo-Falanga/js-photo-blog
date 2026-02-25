@@ -1,4 +1,4 @@
-const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
+
 
 /*
         <div class="col position-relative">
@@ -19,3 +19,6 @@ const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
           </div>
 
 */
+
+const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
+
