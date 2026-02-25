@@ -22,3 +22,4 @@
 
 const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
 
+const rowEl = document.getElementById('js_row')
