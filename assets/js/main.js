@@ -2,7 +2,7 @@ const endpoint = "https://lanciweb.github.io/demo/api/pictures/";
 
 const rowEl = document.getElementById("js_row");
 
-const getApiImages = () => {
+const initGallery = () => {
   rowEl.innerHTML = "";
   fetch(endpoint)
     .then((res) => res.json())
@@ -27,4 +27,4 @@ const getApiImages = () => {
     });
 };
 
-getApiImages();
+initGallery();
