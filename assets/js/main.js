@@ -23,3 +23,10 @@
 const endpoint = 'https://lanciweb.github.io/demo/api/pictures/'
 
 const rowEl = document.getElementById('js_row')
+console.log(endpoint, rowEl);
+
+fetch(endpoint)
+.then(res=>res.json())
+.then(data=> {
+    console.log(data);
+})
