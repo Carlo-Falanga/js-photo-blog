@@ -17,8 +17,8 @@ const initGallery = () => {
         const markup = 
         `
          <div class="col position-relative">
-            <img class="pin" src="./assets/img/pin.svg" alt="" />
-            <div class="card rounded-0 shadow">
+         <div class="card rounded-0 card_hover">
+         <img class="pin" src="./assets/img/pin.svg" alt="" />
               <img src="${url}" class="card-img-top pt-3 px-3" alt="..." />
               <div class="card-body">
                 <p class="cards_text card-text mb-0 text-secondary fw-medium">${date}</p>
