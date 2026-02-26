@@ -5,7 +5,6 @@ const overlayBtnEl = document.getElementById('js_overlay_btn');
 const overlayImgEl = document.getElementById('js_overlay_img')
 const overlayEl = document.querySelector('.overlay')
 
-// console.log(overlayBtnEl, overlayImgEl, overlayEl, cardImgEl);
 
 
 const initGallery = () => {
@@ -38,6 +37,7 @@ initGallery();
 rowEl.addEventListener('click', (e) =>{
   console.log(e.target);
   if(e.target.classList.contains('card-img-top')){
+    overlayImgEl.src = e.target.src
     overlayEl.classList.remove("d-none")
   }
 })
