@@ -1,56 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap");
 
 h1 {
-    font-family: "Edu Tas Beginner", sans-serif;
-    font-size: 5rem;
+  font-family: "Edu Tas Beginner", sans-serif;
+  font-size: 5rem;
 }
 
 .cards_title {
-    font-family: "Edu Tas Beginner", sans-serif;
-    font-size: 1.6rem;
+  font-family: "Edu Tas Beginner", sans-serif;
+  font-size: 1.6rem;
 }
 
 .cards_text {
-    font-family: "Sometype Mono", "monospace";
-    font-size: 1rem;
+  font-family: "Sometype Mono", "monospace";
+  font-size: 1rem;
 }
 
-.header_bkg{
-    background-image: url(/assets/img/wall.png);
-    min-height: 100px;
+.header_bkg {
+  background-image: url(/assets/img/wall.png);
+  min-height: 100px;
 }
 
 .main_bkg {
-    background-image: url(/assets/img/cork.png);
+  background-image: url(/assets/img/cork.png);
 }
 
-.pin{
-    z-index: 1;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -30%);
+.pin {
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -30%);
 }
 
-.overlay{
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background-color: rgba(0,0,0,0.5);
-    background-size: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.overlay {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.img_overlay_width{
+.img_overlay_width {
   max-width: 600px;
 }
 
+.card_hover > img {
+  cursor: pointer;
+}
 
+.card_hover {
+  transition: 0.5s ease-in;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
+.card_hover:hover {
+  transform: rotate(10deg);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+  z-index: 3;
+}
