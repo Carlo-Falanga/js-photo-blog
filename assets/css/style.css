@@ -48,6 +48,9 @@ h1 {
     justify-content: center;
 }
 
+.img_overlay_width{
+  max-width: 600px;
+}
 
 
 
