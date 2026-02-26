@@ -39,6 +39,9 @@ rowEl.addEventListener('click', (e) =>{
   console.log(e.target);
   if(e.target.classList.contains('card-img-top')){
     overlayEl.classList.remove("d-none")
-
   }
+})
+
+overlayBtnEl.addEventListener('click', ()=>{
+  overlayEl.classList.add("d-none")
 })
